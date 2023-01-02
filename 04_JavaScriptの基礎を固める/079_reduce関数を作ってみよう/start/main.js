@@ -3,6 +3,7 @@ const strArry = str.split('');
 
 function tag(accu, curr) {
     // console.log(accu);
+    // accu + "<" + curr + ">";の省略
     return `${accu}<${curr}>`;
 }
 
